@@ -33,13 +33,15 @@ chmod +x jdk-8u60-nb-8_0_2-linux-x64.sh
 ./jdk-8u60-nb-8_0_2-linux-x64.sh
 rm jdk-8u60-nb-8_0_2-linux-x64.sh
 echo "Install NetBeans Done!"
+echo "Vuoi anche il plugin Python?"
+echo "[1]Si	[0]No"
+read plugin
+case $plugin in
+	1) wget http://plugins.netbeans.org/download/plugin/3380
+	   unzip 3380
+	   echo "Pthon Plugin Done!";;
+esac
 cd
 cd Documenti/
 mkdir gitdocs
-echo "Done!"
-
-	
-                                                            
-                           
-
-
+echo "Done!"                                                          
