@@ -33,10 +33,10 @@ apt-get install gedit -y
 echo "Install Gedit Done!"
 
 echo "Installing NetBeans ..."
-wget http://download.oracle.com/otn-pub/java/jdk-nb/8u60-8.0.2/jdk-8u60-nb-8_0_2-linux-x64.sh
-chmod +x jdk-8u60-nb-8_0_2-linux-x64.sh
-./jdk-8u60-nb-8_0_2-linux-x64.sh
-rm jdk-8u60-nb-8_0_2-linux-x64.sh
+wget http://download.netbeans.org/netbeans/8.0.2/final/bundles/netbeans-8.0.2-cpp-linux.sh
+chmod +x netbeans-8.0.2-cpp-linux.sh
+./netbeans-8.0.2-cpp-linux.sh
+rm netbeans-8.0.2-cpp-linux.sh
 echo "Install NetBeans Done!"
 echo "Vuoi anche il plugin Python?"
 echo "[1]Si	[0]No"
@@ -50,4 +50,5 @@ esac
 cd
 cd Documenti/
 mkdir gitdocs
+
 echo "Done!"                                                          
